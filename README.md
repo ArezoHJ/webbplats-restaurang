@@ -1,23 +1,23 @@
 # Björk & Bord
 
-**A responsive restaurant website for a fictional Swedish neighbourhood restaurant.**
+**A responsive website concept for a fictional Swedish neighbourhood restaurant.**
 
-Designed and built by **Arezo Jafari** — Software Engineer | Full-Stack Engineer.
+Designed and built by **Arezo Hazara Jafari** — Software Engineer | Full-Stack Engineer.
 
-> This project focuses on frontend development with HTML and CSS. It does not include a backend, JavaScript, online reservations, or payment processing.
+> This portfolio project demonstrates frontend development with HTML and CSS. It does not include a backend, JavaScript, online booking system, or payment processing.
 
 ## Overview
 
-Björk & Bord is a polished, mobile-first website concept for a seasonal Swedish restaurant. Visitors can explore the menu, learn about the restaurant, and find its opening hours and contact details.
+Björk & Bord is a mobile-first website concept for a seasonal Swedish restaurant. Visitors can explore sample dishes, learn about the restaurant, and find its opening hours and contact details.
 
 ## Features
 
-- Responsive layouts for mobile, tablet, and desktop.
+- Responsive layouts for screen widths from 360 px to 980 px and wider.
 - Semantic HTML sections and a logical heading hierarchy.
-- Accessible navigation, a skip-to-content link, visible keyboard focus, and descriptive image alternatives.
-- CSS Grid and Flexbox layouts, with reduced-motion preferences respected.
-- Contact links that start an email reservation request.
-- Search-friendly page title and meta description.
+- Accessible navigation, a skip-to-content link, visible keyboard focus, and descriptive image alt text.
+- CSS Grid and Flexbox layouts, plus support for reduced-motion preferences.
+- Email links for reservation requests; reservations are not processed by the website.
+- A descriptive page title and meta description.
 
 ## Built with
 
@@ -26,43 +26,47 @@ Björk & Bord is a polished, mobile-first website concept for a seasonal Swedish
 
 No frameworks, JavaScript, or backend services are required.
 
-## Run locally
+## Run the project
 
-Clone the repository and start a local web server:
+### In IntelliJ IDEA
+
+1. Open the project folder in IntelliJ IDEA.
+2. In the Project panel, locate `index.html`.
+3. Right-click the file and choose **Open In → Browser**.
+
+The site is static, so `Main.java` is not needed to run it. If the browser option is unavailable, open `index.html` directly in a browser.
+
+### From a terminal
 
 ```bash
-git clone https://github.com/YOUR-USERNAME/webbplats-restaurang.git
+git clone https://github.com/ArezoHJ/webbplats-restaurang.git
 cd webbplats-restaurang
 python3 -m http.server 8000
 ```
 
-Open [http://localhost:8000](http://localhost:8000) in your browser. You can also open `index.html` directly, but a local server is recommended for development.
+Then visit [http://localhost:8000](http://localhost:8000).
 
 ## Project structure
 
 ```text
 webbplats-restaurang/
-├── index.html   # Page content and semantic markup
-├── styles.css   # Responsive layout, colours, and typography
+├── index.html   # Semantic page content
+├── styles.css   # Responsive styles and visual design
 └── README.md    # Project documentation
 ```
 
-## Design and implementation
+## Design notes
 
-The visual direction combines a forest-green palette, warm neutral backgrounds, and editorial-style typography. The page is designed mobile-first, then uses CSS media queries to make better use of wider screens.
+The design pairs forest-green colours and warm neutral backgrounds with editorial-style typography. CSS media queries adapt the mobile-first layout for wider screens. Restaurant photography is served by Unsplash, so an internet connection is needed to load the images.
 
-Restaurant photography is loaded from Unsplash. An internet connection is needed to display those images.
+## Future improvements
 
-## Scope and future improvements
-
-This is a frontend portfolio project, not a production restaurant booking system. Possible next steps include adding a working booking flow, connecting the menu to a content management system, and introducing a backend API.
+- Add a functional reservation flow.
+- Connect restaurant content to a content management system.
+- Develop a backend API if the project scope expands.
 
 ## Author
 
-**Arezo Jafari**
+**Arezo Hazara Jafari** · Software Engineer | Full-Stack Engineer
 
-Software Engineer | Full-Stack Engineer
-
-- GitHub: [@YOUR-USERNAME](https://github.com/YOUR-USERNAME)
-
-Replace `YOUR-USERNAME` in the clone command and profile link with your GitHub username.
+[GitHub profile](https://github.com/ArezoHJ)
